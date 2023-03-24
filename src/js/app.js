@@ -1,6 +1,5 @@
 // // const url = "https://jsonplaceholder.typicode.com/todos"
 
-import { filterCheckBox } from "./components/filters.js";
 
 // import { Api } from "../api/api.js";
 // const api = new Api();
@@ -37,5 +36,13 @@ import { filterCheckBox } from "./components/filters.js";
 
 
 //instans--------------------------------------------------------------------------------------------
+import { filterCheckBox } from "./components/filters.js";
 
 // console.log(filterCheckBox);
+
+
+
+
+// arrow top ------------------------------------------------------------------------------------
+
+

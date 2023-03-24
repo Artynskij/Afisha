@@ -404,4 +404,4 @@ document.addEventListener("click", (e) => {
   calendarBlockBuyTicket.classList.remove("df");
 });
 
-document.addEventListener("click", (e) => console.log(e.target));
+
