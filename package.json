@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "ion-rangeslider": "^2.3.1",
+    "jquery": "^3.6.4"
+  },
+  "type": "module"
+}

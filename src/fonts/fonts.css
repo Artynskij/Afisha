@@ -1,0 +1,49 @@
+/* @font-face {
+    font-family: BerlinBold;
+    src: url(./Berlin-Bold.woff2);
+}
+@font-face {
+    font-family: BerlinReg;
+    src: url(./Berlin-Regular.woff2);
+} */
+/* @font-face {
+    font-family: BerlinBold;
+    src: url(./test/Berlin-Bold.ttf);
+} */
+@font-face {
+    font-family: BerlinReg;
+    src: url(./test/berlin.regular.ttf);
+    /* только латиница */
+}
+@font-face {
+    font-family: Calypso;
+    src: url(./Calypso.ttf);
+}
+@font-face {
+    font-family: Averta;
+    src: url(./Avertademopecutteddemoregular.woff2);
+    /* норм вместо берлина */
+}
+@font-face {
+    font-family: Bewlay;
+    src: url(./bewlay_br1_cyrillic.woff2);
+}
+@font-face {
+    font-family: Kino;
+    src: url(./KinoMTStd.woff2);
+}
+
+@font-face {
+    font-family: Neris;
+    src: url(./Neris-Light.woff2);
+     /* норм вместо берлина */
+}
+@font-face {
+    font-family: MelocheBk;
+    src: url(./MelocheBk-Regular.woff2);
+      /* норм +- вместо берлина */
+}
+@font-face {
+    font-family: Nocturne;
+    src: url(./NocturneSerif-Regular.woff2);
+}
