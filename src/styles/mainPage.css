@@ -134,9 +134,7 @@
   line-height: 55px;
   color: #121212;
 }
-.main_content__item__info{
-  
-
+.main_content__item__info {
 }
 .main_content__item__info__title {
   font-weight: 400;
@@ -144,16 +142,15 @@
   line-height: 33px;
   color: #121212;
   display: -webkit-box;
-
 }
 .main_content__item__info__title {
-  -webkit-line-clamp: 3; 
--webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  
+
   text-overflow: ellipsis;
 }
-.main_content__item__info .light_button{
+.main_content__item__info .light_button {
   color: #121212;
 }
 .main_content__marketing {
@@ -274,13 +271,13 @@
   justify-content: space-between;
 }
 
-.buyTicket_header__time{
-width: 60%;
-display: flex;
-flex-direction: column;
-align-items: center;
-margin-right: 1rem;
-/* display: flex;
+.buyTicket_header__time {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1rem;
+  /* display: flex;
 justify-content: center;
 flex-direction: column; */
 }
@@ -417,7 +414,9 @@ flex-direction: column; */
   padding-left: 20px;
   padding-right: 20px;
 }
-
+.card  a{
+  /* position: relative; */
+}
 .card__header {
   position: relative;
 }
@@ -484,6 +483,40 @@ flex-direction: column; */
 }
 
 /* ------------------------------------------------для слайдера news------------------------------------------------ */
+
+/* ------------------------------------------------для слайдера картинки------------------------------------------------ */
+.item_type_rating {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05rem;
+  color: #fdffff;
+  padding: 7px 15px 7px 10px;
+  position: absolute;
+  top: 4%;
+  left: 0;
+
+  background-image: url("../img/icons/bgTypeRating.png");
+  background-size: 100% 100%;
+}
+.item_rating {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  line-height: 24px;
+  color: #696969;
+  padding: 7px 15px 7px 10px;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+
+  background-color: #e2edf1;
+  border-radius: 8px;
+}
+.item_rating img {
+  margin-right: 10px;
+}
+
+/* ------------------------------------------------для слайдера картинки------------------------------------------------ */
 .itc-slider-4 .itc-slider {
   overflow: hidden;
   padding-bottom: 35px;
@@ -515,15 +548,15 @@ flex-direction: column; */
 .footer__mobile {
   display: none;
 }
-@media  (max-width: 1200px  )  {
-  .buyTicket_header__buttons{
-flex-wrap: wrap;
+@media (max-width: 1200px) {
+  .buyTicket_header__buttons {
+    flex-wrap: wrap;
   }
-  .buyTicket_header__buttons .button{
+  .buyTicket_header__buttons .button {
     width: 100%;
-   margin-bottom: 5px;
+    margin-bottom: 5px;
   }
-  .buyTicket_header__buttons .mr15{
+  .buyTicket_header__buttons .mr15 {
     margin-right: 0;
   }
 }
@@ -650,7 +683,6 @@ flex-wrap: wrap;
 }
 
 @media (max-width: 830px) {
-  
   .main_content {
     padding: 0;
   }
@@ -687,26 +719,26 @@ flex-wrap: wrap;
     /* width: auto; */
     /* width: 30%; */
   }
-  .buyTicket{
-   margin-bottom: 50px; 
+  .buyTicket {
+    margin-bottom: 50px;
   }
   .buyTicket_header {
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
-  .buyTicket_header__date{
+  .buyTicket_header__date {
     display: none;
   }
   .buyTicket_header__buttons {
     width: 100%;
     justify-content: flex-start;
   }
-  .buyTicket_header__buttons .button{
+  .buyTicket_header__buttons .button {
     width: fit-content;
-   margin-bottom: 0;
+    margin-bottom: 0;
   }
-  .buyTicket_header__buttons .mr15{
+  .buyTicket_header__buttons .mr15 {
     margin-right: 15px;
   }
   .buyTicket__content__title {
@@ -721,11 +753,34 @@ flex-wrap: wrap;
     font-size: 18px;
     line-height: 25px;
   }
-  .buyTicket_header__time{
+  .buyTicket_header__time {
     width: 100%;
     /* padding: 20px 0; */
   }
+  .item_type_rating {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .item_rating {
+    
+    font-size: 12px;
+    line-height: 14px;
+    width: max-content;
+   left: 0%;
+   top: 76%;
+   margin-left: 10px;
+   padding: 7px 10px 7px 7px;
+    /* bottom: 14%;
+    left: 24%; */
   
+ 
+  }
+  .item_rating img {
+    margin-right: 10px;
+    width: 11px;
+    height: 11px;
+  }
+
   .main_footer_marketing {
     width: 100%;
     display: flex;
@@ -738,34 +793,38 @@ flex-wrap: wrap;
     width: 45%;
     margin-bottom: 10px;
   }
-  .itc-slider__btn{
-width: 40px;
-height: 40px;
+  .itc-slider__btn {
+    width: 40px;
+    height: 40px;
   }
 }
 /* font-sizes */
 @media (max-width: 830px) {
-  .main_content__item__title, .buyTicket_title {
+  .main_content__item__title,
+  .buyTicket_title {
     font-size: 26px;
     line-height: 31px;
   }
   .main_content__item__info__title {
     font-size: 16px;
-line-height: 20px;
+    line-height: 20px;
   }
-  .buyTicket_header__buttons .button, .buyTicket_header__time_legend_item, .buyTicket__content__item_info_ctn .button{
+  .buyTicket_header__buttons .button,
+  .buyTicket_header__time_legend_item,
+  .buyTicket__content__item_info_ctn .button {
     font-size: 16px;
     line-height: 22px;
   }
-  .slide_info_addition_date,.slide_info_addition_place {
+  .slide_info_addition_date,
+  .slide_info_addition_place {
     font-size: 14px;
     line-height: 19px;
   }
-  .main_content__item__info .light_button{
+  .main_content__item__info .light_button {
     font-size: 15px;
-line-height: 21px;
+    line-height: 21px;
   }
-  .buyTicket_header__time_title{
+  .buyTicket_header__time_title {
     font-size: 18px;
     line-height: 25px;
   }
@@ -891,8 +950,6 @@ line-height: 21px;
   display: flex;
   align-items: center;
 }
-
-
 
 .filters_toggle {
   color: #696969;

@@ -33,9 +33,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .error__button_help a{
  text-decoration: none;
+ margin-bottom: 10px;
 
 }
 .button_help__item {
@@ -52,4 +54,16 @@
   background: #e2edf1;
   border: 1px solid #0c5c9d;
   border-radius: 8px;
+}
+
+@media (max-width:800px) {
+  .error__number_error {
+    font-size: 100px;
+  }
+  .error__text_error{
+    font-size: 20px;
+  }
+  .error__button_help a,.error__text_help {
+    font-size: 16px;
+  }
 }
