@@ -1,5 +1,20 @@
 const url = "https://webgate.24guru.by/api/v2";
+const test = "https://cdn.mysitemapgenerator.com/shareapi/rss/0106566306";
 export class Api {
+     getTest() {
+      return fetch(`${test}`, {
+        method:'GET',
+        headers:{
+          'Content-Type': 'text/plain',
+          // "Access-Control-Allow-Origin":'http://127.0.0.1:5501/index.html'
+        }
+        
+      }).then((r) => {
+        if (r.ok) {
+          return r;
+        }
+      });
+    }
     // getGoods(id) {
     //   return fetch(`/api/goods?${id}`).then((r) => {
     //     if (r.ok) {

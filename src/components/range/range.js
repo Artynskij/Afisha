@@ -34,7 +34,7 @@ noUiSlider.create(slider, {
 });
 
 slider.noUiSlider.on("update", (values, handle) => {
-console.log(values);
+
 })
 // console.log(noUiSlider);
 
