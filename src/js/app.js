@@ -1,9 +1,9 @@
 // // const url = "https://jsonplaceholder.typicode.com/todos"
 
 
-// import { Api } from "../api/api.js";
-// const api = new Api();
-
+import { Api } from "../api/api.js";
+const api = new Api();
+api.getTest().then(res => console.log(res))
 // let towns = await api.getTowns();
 
 // const selectContent = document.querySelector(".__select__content");
