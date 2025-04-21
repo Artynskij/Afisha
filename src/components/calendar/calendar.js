@@ -358,7 +358,6 @@ if (buttonBuyCal){
   clickButtonOpen(calendarBlockBuyTicket, buttonBuyCal, "buyTicket");
 }
 
-console.log(buttonCalClear);
 function createBlockClear() {
   // const buttonCalClear = document.querySelector(".calendar_clear");
   const blockCalChoice = document.querySelector(".calendar_choice");
